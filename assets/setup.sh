@@ -33,7 +33,7 @@ printf 8080\\n1521\\noracle\\noracle\\ny\\n | /etc/init.d/oracle-xe configure &&
 
 echo 'export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe' >> /etc/bash.bashrc &&
 echo 'export PATH=$ORACLE_HOME/bin:$PATH' >> /etc/bash.bashrc &&
-echo 'export ORACLE_SID=XE' >> /etc/bash.bashrc &&
+echo 'export ORACLE_SID=stoc' >> /etc/bash.bashrc &&
 
 # Install startup script for container
 mv /assets/startup.sh /usr/sbin/startup.sh &&
